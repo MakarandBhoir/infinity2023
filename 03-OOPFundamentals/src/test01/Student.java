@@ -1,4 +1,4 @@
-package test;
+package test01;
 
 public class Student {
 	
