@@ -3,6 +3,9 @@ package test11;
 public final class Saving extends Account {
 	private double roi;
 	
+	public Saving() {
+	}
+	
 	Saving(int accountNumber, String name, double balance, double roi){
 		super(accountNumber, name, balance);
 		this.roi = roi;

@@ -5,6 +5,9 @@ public abstract class Account {
 	protected String accountHolder;
 	protected double accountBalance;
 	
+	public Account() {
+	}
+	
 	Account(int accountNumber, String name, double balance){
 		this.accountNumber = accountNumber;
 		accountHolder = name;
