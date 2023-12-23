@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class EmployeeApp {
-
 	public static void main(String[] args) {
 		Employee e1 = new Employee(101, "Makarand", 5000);
 		Employee e2 = new Employee(102, "Janmesh", 70000);
