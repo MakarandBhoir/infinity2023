@@ -1,6 +1,4 @@
-package com.infinity.collection5;
-
-import java.util.Objects;
+package com.infinity.collection7;
 
 public class Employee {
 	private int employeeId;
@@ -16,7 +14,6 @@ public class Employee {
 		this.employeeName = employeeName;
 		this.employeeSalary = employeeSalary;
 	}
-	
 	public int getEmployeeId() {
 		return employeeId;
 	}
@@ -36,8 +33,10 @@ public class Employee {
 		this.employeeSalary = employeeSalary;
 	}
 	
-	public int hashCode() {
-		return employeeId;
+	@Override
+	public String toString() {
+		return "Employee [employeeId=" + employeeId + ", employeeName=" + employeeName + ", employeeSalary="
+				+ employeeSalary + "]\n";
 	}
 	
 }
